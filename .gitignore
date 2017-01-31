@@ -1,0 +1,18 @@
+#################
+## Ignore files with credential information
+#################
+
+./wpa_supplicant.conf
+__pycache__/
+*/__pycache__/
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
