@@ -2,7 +2,7 @@
 ## Ignore files with credential information
 #################
 
-./wpa_supplicant.conf
+wpa_supplicant.conf
 __pycache__/
 */__pycache__/
 
