@@ -9,3 +9,7 @@ These dependencies are to be installed on the Raspberry Pi 3
 
 - picamera
 - flask
+
+## Notes
+
+On a Mac, use `arp -a` to scan for active devices. The Raspberry Pi has a MAC address of `b8:27:eb:e:fe:8e`.
