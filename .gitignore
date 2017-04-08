@@ -5,7 +5,7 @@
 wpa_supplicant.conf
 __pycache__/
 */__pycache__/
-
+images/
 
 # OS generated files #
 ######################

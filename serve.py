@@ -83,15 +83,7 @@ def default():
 @app.route('/images/<path:path>')
 def images(path):
     """
-        This function is the root of the served address. This captures an image and puts it up. 
-        Default method: GET
-        Parameters: 
-            resolution=(3280, 2464),
-            shutter_speed=10000000,
-            iso=800,
-            exposure_mode=off,
-            framerate=0.1
-        sample GET request: /?resolution=(3280,2464)&shutter_speed=10000000&iso=800&exposure_mode=off&framerate=0.1
+        This function sends the particular image from the server
     """
     return send_from_directory('./images/', path)
 
